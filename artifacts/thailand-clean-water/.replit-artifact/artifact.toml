@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Thailand Clean Water Project"
+description = "A static landing page for a nonprofit initiative bringing clean, safe drinking water to rural communities in Thailand. Showcases the mission, impact statistics, project locations, how to help, and a contact/donate section."
+version = "1.0.0"
+id = "artifacts/thailand-clean-water"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21405
+
+[services.development]
+run = "pnpm --filter @workspace/thailand-clean-water run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/thailand-clean-water", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/thailand-clean-water/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21405"
+BASE_PATH = "/"
