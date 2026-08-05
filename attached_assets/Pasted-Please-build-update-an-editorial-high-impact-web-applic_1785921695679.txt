@@ -1,0 +1,65 @@
+Please build/update an editorial, high-impact web application for "Siloam Wells Fund" (Chiang Dao Water Security Project) using HTML, Tailwind CSS, and JavaScript.
+
+--- AESTHETIC & THEME ---
+• Colors: Deep jungle-green background (#06140e), dark emerald card containers (#081c14), thin emerald borders (border-emerald-900/50), and warm golden-hour accents (#eab308 / #d97706).
+• Typography: Load Google Fonts for "Playfair Display" (headlines) and "DM Sans" (clean body text).
+• Visuals: Authentic, documentary-grade layout. Every image card should have subtle rounded corners, dark borders, and atmospheric gradient overlays.
+
+--- NAVIGATION BAR ---
+• Left: "SILOAM WELLS FUND" (Playfair Display) + golden pill badge "CHIANG DAO DISTRICT".
+• Right Links: Baseline Crisis, Mission, Impact Metrics, Interactive Map, Field Operations, Financial Integrity, Donate.
+
+--- SECTION 1: HERO ---
+• Tag/Badge: "PUBLIC HEALTH ENGINEERING • CHIANG DAO DISTRICT"
+• Headline (Playfair Display): "Water is the beginning of everything."
+• Subheadline: "From 1 hour of clean water a week to 15,000 liters daily. Evolving temporary medical relief into permanent public health infrastructure in rural Arunothai, Northern Thailand."
+• Action Buttons: Primary "Explore Impact Metrics" (Golden) | Secondary "View Field Documentation".
+
+--- SECTION 2: STAT TICKERS ---
+A 3-column dark grid showcasing our quantitative metrics:
+• Card 1: "1,000 Residents" → Served Daily across Arunothai village
+• Card 2: "15,000 L/Day" → Well Flow Output Capacity (1,500 L/Hour)
+• Card 3: "35 Refugee Children" → Direct beneficiaries at Hope Home (主恩之家)
+
+--- SECTION 3: THE BASELINE CRISIS (BEFORE VS. AFTER) ---
+A 2-column comparative section highlighting the pre-intervention conditions and human vulnerability:
+• Card 1 (File: `dirty-water-baseline.jpg`):
+  - Subtitle: "The Baseline Condition (Pre-Intervention)"
+  - Caption: "Unfiltered water storage in Arunothai showing heavy sediment and algae buildup, posing severe gastrointestinal risks to residents."
+• Card 2 (File: `infant-community-impact.jpg`):
+  - Subtitle: "Public Health Vulnerability"
+  - Caption: "Infants and displaced youth face the highest risk of waterborne illness in high-temperature, low-sanitation environments."
+
+--- SECTION 4: FIELD IMAGERY & DOCUMENTARY GALLERY ---
+A responsive 3-column grid titled "Ground Operations & Community Context" featuring 6 primary field assets:
+• Image 1 (File: `drilling-crew.jpg`):
+  - Caption: "Borehole Drilling Operations | Heavy rig excavation tapping deep groundwater sources in Chiang Dao."
+• Image 2 (File: `hope-home-facility.jpg`):
+  - Caption: "Hope Home (主恩之家) | Residential facility sheltering 35 displaced youth near the Myanmar border."
+• Image 3 (File: `water-filtration-tanks.jpg`):
+  - Caption: "Multi-Stage Filtration & Storage | High-capacity tanks ensuring continuous 15,000 L/day purified supply."
+• Image 4 (File: `community-children.jpg`):
+  - Caption: "Youth Care & Community Impact | Daily health and educational stability backed by clean water access."
+• Image 5 (File: `wash-station.jpg`):
+  - Caption: "Sanitation & Washing Stations | Upgraded concrete wash infrastructure reducing waterborne pathogen spread."
+• Image 6 (File: `arunothai-church.jpg`):
+  - Caption: "Local Stewardship | Partnered with Chiang Mai Arunothai Church for long-term site maintenance."
+
+--- SECTION 5: INTERACTIVE GEOSPATIAL MAP ---
+• Header: "Field Operations & Well Infrastructure Location"
+• Subtitle: "Interactive spatial map of completed well sites in Chiang Dao District near the Myanmar border."
+• Container: Dark map div (height: 420px).
+• Leaflet.js Setup: Import Leaflet via CDN. Center map at Lat: 19.7215, Lng: 98.9221 (Arunothai). Use dark tile layer. Add custom well pin marker with popup: "Siloam Well #1 | Target: Hope Home & Arunothai Village | Capacity: 1,500 L/hr serving 1,000 people".
+
+--- SECTION 6: FINANCIAL TRANSPARENCY & BUDGET DASHBOARD ---
+• Header: "100% Financial Integrity ($15,000 USD Allocation)"
+• Left Side: Detailed breakdown list:
+  - Well Drilling & Borehole Excavation: $7,750 USD
+  - Storage Tanks, Filtration Systems & Piping: $5,580 USD
+  - Operational Maintenance Reserve: $1,670 USD
+• Right Side: Import Chart.js via CDN and generate a Doughnut Chart displaying these 3 slices using emerald green, teal, and golden yellow colors.
+
+--- SECTION 7: FOOTER ---
+• Siloam Wells Fund branding, operational disclosures, and SlideRoom portfolio metadata note.
+
+Ensure script.js initializes Leaflet.js and Chart.js properly without layout or map rendering bugs.

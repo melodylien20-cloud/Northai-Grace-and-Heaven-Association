@@ -1,0 +1,38 @@
+Build a modern, high-impact, single-page web application for a clean water humanitarian project called "明日之流 | Flow of Tomorrow". Use HTML, CSS with Tailwind CSS (via CDN), and JavaScript.
+
+Design Style:
+Dark, modern, agency-grade UI. Dark slate background (#020617), bright cyan accents (#06b6d4), crisp typography, clean borders (#1e293b), and smooth scrolling.
+
+Please build the following 5 distinct sections into index.html:
+
+1. NAVBAR (Sticky):
+- Brand: "明日之流 | Flow of Tomorrow" in bold cyan.
+- Links: Field Story, Impact Map, Hope Home, Transparency, Donate (styled as a bright cyan CTA button).
+
+2. HERO SECTION:
+- Tag: "CHIANG DAO DISTRICT • MYANMAR BORDER"
+- Main Headline: "From 1 Hour of Water a Week to 15,000 Liters Daily"
+- Sub-headline: "Scaling sustainable infrastructure in rural Arunothai, Northern Thailand. Evolving temporary medical relief into permanent public health engineering."
+- Action Buttons: Primary "Explore Impact Metrics" and secondary "Watch Field Documentary".
+
+3. LIVE METRIC TICKERS (Grid of 3 cards):
+- Card 1: "1,000 Lives" -> Impacted Daily
+- Card 2: "15,000 L/Day" -> Well Output Capacity (1,500 L/hr)
+- Card 3: "35 Children" -> Hope Home Refugees Served
+
+4. INTERACTIVE MAP SECTION:
+- Section Header: "Field Operations & Well Infrastructure"
+- Subtitle: "Geospatial pinning in Arunothai, Chiang Dao near the Myanmar border."
+- Include a <div> with id "map" (styled height: 400px, rounded corners).
+- In JavaScript, import Leaflet.js (include Leaflet CSS/JS CDNs) and initialize a dark-mode map centered at latitude 19.7215, longitude 98.9221 (Arunothai).
+- Add a pin marker with a popup showing: "Arunothai Clean Water Well | Partner: Chiang Mai Arunothai Church | Flow: 1,500 L/hr serving 1,000 people".
+
+5. FINANCIAL INTEGRITY & TRANSPARENCY SECTION:
+- Section Header: "Financial Integrity ($15,000 USD Budget Allocation)"
+- Left side text: Bullet points showing direct cost breakdown:
+  * Well Drilling: $7,750 USD
+  * Storage Facilities: $5,580 USD
+  * Reserve & Maintenance: $1,670 USD
+- Right side: Import Chart.js via CDN and create a sleek Doughnut Chart displaying this 3-part budget allocation visually using cyan, blue, and indigo colors.
+
+Make sure script.js and style.css are correctly linked and fully functional upon running.
