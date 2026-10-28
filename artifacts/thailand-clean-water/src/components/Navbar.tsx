@@ -33,9 +33,9 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <a
               href="#"
-              className="font-serif text-foreground font-bold text-xl tracking-wide hover:text-primary transition-colors flex items-center"
+              className="font-serif text-foreground font-bold text-sm sm:text-base xl:text-lg tracking-normal whitespace-nowrap hover:text-primary transition-colors flex items-center"
             >
-              SILOAM WELLS FUND
+              NORTHAI GRACE & HEAVEN ASSOCIATION
             </a>
             <span className="hidden lg:inline-block bg-primary/20 text-primary border border-primary/30 px-2 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase">
               Chiang Dao District
@@ -43,12 +43,12 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-6 lg:gap-8">
+          <div className="hidden md:flex items-center gap-4 lg:gap-5">
             {links.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="text-muted-foreground hover:text-white text-sm font-medium tracking-wide transition-colors"
+                className="text-muted-foreground hover:text-white text-xs lg:text-[13px] font-medium tracking-normal whitespace-nowrap transition-colors"
               >
                 {link.label}
               </a>

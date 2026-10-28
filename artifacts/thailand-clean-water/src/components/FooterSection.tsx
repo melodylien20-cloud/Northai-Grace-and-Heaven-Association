@@ -6,7 +6,7 @@ export default function FooterSection() {
           {/* Brand */}
           <div>
             <p className="font-serif text-foreground font-bold text-xl mb-4 tracking-wide">
-              SILOAM WELLS FUND
+              NORTHAI GRACE & HEAVEN ASSOCIATION
             </p>
             <p className="text-muted-foreground text-sm font-light leading-relaxed max-w-xs">
               Evolving temporary medical relief into permanent public health infrastructure in rural Northern Thailand — one well at a time.
@@ -41,7 +41,7 @@ export default function FooterSection() {
 
         <div className="border-t border-emerald-900/30 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground font-light text-xs tracking-wider">
-            &copy; {new Date().getFullYear()} Siloam Wells Fund. All rights reserved.
+            &copy; {new Date().getFullYear()} Northai Grace &amp; Heaven Association. All rights reserved.
           </p>
           <p className="text-primary font-light text-xs tracking-wider">
             Committed to 100% financial transparency.

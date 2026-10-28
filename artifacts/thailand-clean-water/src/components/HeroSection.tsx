@@ -136,7 +136,7 @@ export default function HeroSection() {
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-xl">💧</span>
                   <span className="text-xs font-bold tracking-[0.25em] uppercase text-foreground/50">
-                    Siloam Wells Fund
+                    Northai Grace & Heaven Association
                   </span>
                 </div>
 

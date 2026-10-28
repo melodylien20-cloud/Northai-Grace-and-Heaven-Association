@@ -50,7 +50,7 @@ export default function MapSection() {
       .addTo(map)
       .bindPopup(
         `<div style="font-family: 'DM Sans', sans-serif; font-size: 13px; color: #06140e; min-width: 240px; padding: 4px;">
-          <strong style="color:#d97706; font-size: 15px; display: block; margin-bottom: 4px;">Siloam Well #1</strong>
+          <strong style="color:#d97706; font-size: 15px; display: block; margin-bottom: 4px;">Community Well #1</strong>
           <span style="display: block; margin-bottom: 4px;">Target: Hope Home & Arunothai Village</span>
           <span style="font-weight: 500;">Capacity: 1,500 L/hr serving 1,000 people</span>
         </div>`,
